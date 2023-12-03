@@ -6,7 +6,7 @@ import { ScrollToTop } from '../scroll-top'
 export const Footer = () => {
     return (
         <div>
-            <div className='max-w-screen-xl  mx-auto w-full flex justify-between items-center h-28'>
+            <div className='site-container  flex justify-between items-center h-28'>
                 {/* left */}
                 <div className='text-sm w-1/3'>&copy; Houzez - All rights reserved</div>
 

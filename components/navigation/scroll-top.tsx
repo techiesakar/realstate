@@ -27,6 +27,6 @@ export const ScrollToTop = () => {
         })
     }
     return (
-        <div onClick={ScrollToTop} className={cn("bg-yellow-400 hidden fixed bottom-8 right-8 hover:bg-yellow-500 transition-all cursor-pointer text-white p-2 rounded", isVisible === true && "block")}>   <ArrowUp /></div>
+        <div onClick={ScrollToTop} className={cn("bg-secondary hidden fixed bottom-8 right-8 hover:bg-hover transition-all cursor-pointer text-white p-2 rounded", isVisible === true && "block")}>   <ArrowUp /></div>
     )
 }

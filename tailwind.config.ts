@@ -31,8 +31,15 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       colors: {
-        primary: "#153048"
+        primary: "#153048",
+        secondary: "#ffa72a",
+        hover: "#ff7800",
+        light: "#F8F8F8"
       },
+      width: {
+        '1150': "1150px"
+      }
+
 
     },
   },

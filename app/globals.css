@@ -8,3 +8,15 @@ body,
     width: 100%;
     height: 100%;
 }
+
+body {
+    background-color: #F8F8F8
+}
+
+
+@layer components {
+
+    .site-container {
+        @apply max-w-[1150px] mx-auto w-full;
+    }
+}

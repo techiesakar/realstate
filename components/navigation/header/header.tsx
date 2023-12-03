@@ -7,7 +7,7 @@ import { PhoneCall } from 'lucide-react'
 export const Header = () => {
     return (
         <header className='bg-primary'>
-            <div className='max-w-screen-xl mx-auto w-full flex justify-between items-center h-28'>
+            <div className='max-w-[1150px] mx-auto w-full flex justify-between items-center h-28'>
 
                 <Logo imageUrl='/logo-white.png' />
 
