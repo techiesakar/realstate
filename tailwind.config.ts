@@ -38,6 +38,10 @@ module.exports = {
       },
       width: {
         '1150': "1150px"
+      },
+      backgroundSize: {
+        '50%': '50%',
+        '16': '4rem',
       }
 
 
