@@ -1,19 +1,21 @@
 import { FeaturedSection } from "@/components/home/featured/featured";
-import { FeaturedCardWrapper } from "@/components/home/featured/featured-card-wrapper";
 import { HeroSection } from "@/components/home/hero-section/hero-section";
 import { ServiceSection } from "@/components/home/services/services-section";
 import { TestimonailSection } from "@/components/home/testimonials/testimonail-section";
-import { ValuationRequestSection } from "@/components/home/valuation-request/valuation-request";
+import { FeaturedpropertiesSkeleton } from "@/components/skeleton/skeletons";
+import { ValuationRequestSection } from "@/components/valuation-request/valuation-request";
+import { Suspense } from "react";
 
 export default function Home() {
   return (
-
     <main>
       <HeroSection />
-      <FeaturedSection />
+      <Suspense fallback={<FeaturedpropertiesSkeleton />}>
+        <FeaturedSection />
+      </Suspense>
       <ValuationRequestSection />
       <ServiceSection />
       <TestimonailSection />
     </main>
-  )
+  );
 }

@@ -49,6 +49,7 @@ export const HeroForm = () => {
                                             <SelectItem value="resale">Resale</SelectItem>
                                         </SelectContent>
                                     </Select>
+
                                 </FormControl>
                                 <FormMessage />
                             </FormItem>
