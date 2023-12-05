@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { PartnerShipCard } from "./partnership-card";
-import AboutSectionLayout from "../about-section-layout";
+import PageSectionlayout from "@/components/pages/page-section-layout";
 export const CardData = [
   {
     imageUrl: "/partner-1.jpg",
@@ -29,7 +29,7 @@ export const PartnerShipSection = async () => {
     setTimeout(resolve, 1000);
   });
   return (
-    <AboutSectionLayout
+    <PageSectionlayout
       title="Partnership"
       subtitle="We work with the best companies"
     >
@@ -50,6 +50,6 @@ export const PartnerShipSection = async () => {
         height={500}
         className="absolute right-0 top-0 bottom-0 -z-10"
       />
-    </AboutSectionLayout>
+    </PageSectionlayout>
   );
 };

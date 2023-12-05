@@ -1,8 +1,8 @@
 import React from "react";
-import AboutSectionLayout from "../about-section-layout";
 import Image from "next/image";
 import Link from "next/link";
 import { Tag } from "lucide-react";
+import PageSectionlayout from "@/components/pages/page-section-layout";
 
 type PropsType = {
   imageUrl: string;
@@ -43,7 +43,7 @@ export const CardData = [
 ];
 export const BlogSection = () => {
   return (
-    <AboutSectionLayout
+    <PageSectionlayout
       title="From our blog"
       subtitle="Stay updated with the latest news"
     >
@@ -58,7 +58,7 @@ export const BlogSection = () => {
           />
         ))}
       </div>
-    </AboutSectionLayout>
+    </PageSectionlayout>
   );
 };
 
