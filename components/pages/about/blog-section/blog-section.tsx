@@ -64,7 +64,7 @@ export const BlogSection = () => {
 
 export const BlogCard = ({ tags, title, content, imageUrl }: PropsType) => {
   return (
-    <div className="bg-white p-4 rounded flex flex-col gap-2">
+    <div className="bg-white p-4 rounded flex flex-col gap-3">
       <div>
         <Image
           src={imageUrl}
@@ -79,11 +79,11 @@ export const BlogCard = ({ tags, title, content, imageUrl }: PropsType) => {
           <Tag className="w-3 h-3 mr-1" />
           {tags}
         </span>
-        <h2 className="font-semibold text-lg text-primary capitalize">
-          {title}
-        </h2>
-        <p className="text-sm text-gray-600 line-clamp-4">{content}</p>
-        <Link className="text-secondary text-sm font-semibold" href="">
+        <h2 className="font-semibold  text-primary capitalize">{title}</h2>
+        <p className="text-xs  text-gray-600 line-clamp-4 leading-5">
+          {content}
+        </p>
+        <Link className="text-secondary text-sm " href="">
           Continue Reading
         </Link>
       </div>
