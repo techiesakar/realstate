@@ -1,15 +1,16 @@
-import { PropertyFilterForm } from "@/components/pages/property/property-form/property-form";
+import { FeaturedCities } from "@/components/pages/property/featured-cities/featured-cities";
+import { FeaturedProperties } from "@/components/pages/property/featured-properties/featured-properties";
+import { PropertiesPageHeader } from "@/components/pages/property/properties-header";
 
 const PropertiesPage = async () => {
   return (
-    <section className="w-full bg-primary pt-10">
-      <div className="site-container relative">
-        <h1 className="text-center text-white text-5xl font-semibold">
-          Properties
-        </h1>
-        <PropertyFilterForm />
+    <div className="mb-20">
+      <PropertiesPageHeader />
+      <div className="space-y-16">
+        <FeaturedCities />
+        <FeaturedProperties />
       </div>
-    </section>
+    </div>
   );
 };
 
