@@ -10,9 +10,9 @@ type ParamsType = {
 const page = async ({ params }: ParamsType) => {
   return (
     <div className="flex items-center">
-      {Posts.map((item, index) => {
+      {Posts.map((item) => {
         if (params.slug[0] === item.id) {
-          return <BlogSingle post={item} />;
+          return <BlogSingle key={item.title} post={item} />;
         }
       })}
     </div>
