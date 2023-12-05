@@ -5,17 +5,17 @@ import { ScrollToTop } from "../scroll-top";
 
 export const Footer = () => {
   return (
-    <div className="bg-white py-4">
-      <div className="site-container  flex justify-between items-center h-28">
+    <div className="bg-white py-4 w-full">
+      <div className="site-container lg:flex-row flex-col justify-center gap-4  flex lg:justify-between items-center h-28">
         {/* left */}
-        <div className="text-sm w-1/3 text-gray-600">
+        <div className="text-sm lg:w-1/3 text-gray-600">
           &copy; Houzez - All rights reserved
         </div>
 
-        <div className="w-1/3 flex justify-center">
+        <div className="lg:w-1/3 flex justify-center">
           <Logo imageUrl="/logo-blue.png" />
         </div>
-        <div className="w-1/3 flex justify-end">
+        <div className="lg:w-1/3 flex justify-end">
           <ul className="flex gap-3">
             <li>
               <Facebook className="w-5 h-5 text-gray-500" />

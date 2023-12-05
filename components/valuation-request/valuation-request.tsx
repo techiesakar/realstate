@@ -7,18 +7,18 @@ type PropsType = {
 };
 export const ValuationRequestSection = ({ className }: PropsType) => {
   return (
-    <section className={cn("pt-20", className)}>
-      <div className="site-container bg-primary rounded-xl p-20 flex justify-between gap-20 relative">
-        <div className="w-1/2 flex flex-col space-y-8 pr-16">
+    <section className={cn("pt-10 lg:pt-16", className)}>
+      <div className="site-container bg-primary items-start rounded-xl lg:p-20 p-10 md:flex-row flex-col flex justify-between  lg:gap-20 relative">
+        <div className="lg:w-1/2 flex flex-col lg:space-y-8 lg:pr-16">
           <div className="uppercase text-secondary text-left font-semibold">
             Are you selling?
           </div>
-          <h2 className="text-white text-3xl font-bold">
+          <h2 className="text-white text-xl lg:text-3xl lg:font-bold font-medium">
             We deliver accurate property valuation reports
           </h2>
         </div>
-        <div className="w-1/2 flex flex-col  space-y-8 pr-10">
-          <p className="text-gray-300 text-sm">
+        <div className="lg:w-1/2 flex flex-col  space-y-8 lg:pr-10">
+          <p className="text-gray-300 text-sm lg:block hidden">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
             tellus, luctus nec ullamcorper mattis, pulvinar sed do eiusmod
             tempor.
@@ -35,7 +35,7 @@ export const ValuationRequestSection = ({ className }: PropsType) => {
           width={250}
           height={250}
           alt=""
-          className="absolute -right-10 bottom-0 top-0 h-full"
+          className="absolute lg:block hidden -right-10 bottom-0 top-0 h-full"
         />
       </div>
     </section>
