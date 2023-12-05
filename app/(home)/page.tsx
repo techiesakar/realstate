@@ -8,7 +8,7 @@ import { Suspense } from "react";
 
 export default function Home() {
   return (
-    <main>
+    <main className="mb-10 lg:mb-26">
       <HeroSection />
       <Suspense fallback={<FeaturedpropertiesSkeleton />}>
         <FeaturedSection />
