@@ -1,4 +1,4 @@
-import AboutSectionLayout from "../about-section-layout";
+import PageSectionlayout from "@/components/pages/page-section-layout";
 import { LeadershipCard } from "./leadership-card";
 export const CardData = [
   {
@@ -32,7 +32,7 @@ export const LeadershipSection = async () => {
     setTimeout(resolve, 1000);
   });
   return (
-    <AboutSectionLayout
+    <PageSectionlayout
       title="Leadership"
       subtitle="The people behind the project"
     >
@@ -47,6 +47,6 @@ export const LeadershipSection = async () => {
           />
         ))}
       </div>
-    </AboutSectionLayout>
+    </PageSectionlayout>
   );
 };

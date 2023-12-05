@@ -13,25 +13,10 @@ body {
     background-color: #F8F8F8
 }
 
-
 @layer components {
-
     .site-container {
         @apply max-w-[1150px] mx-auto w-full;
     }
-}
-
-body::-webkit-scrollbar {
-    width: 0px;
-}
-
-body::-webkit-scrollbar-track {
-    background-color: #f1f1f1;
-}
-
-::-webkit-scrollbar-thumb {
-    background: #b1b1b1;
-    border-radius: 6px;
 }
 
 .section-banner {

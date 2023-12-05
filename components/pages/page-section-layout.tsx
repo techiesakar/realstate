@@ -4,14 +4,14 @@ type PropsType = {
   subtitle: string;
   children: React.ReactNode;
 };
-const AboutSectionLayout = ({ title, subtitle, children }: PropsType) => {
+const PageSectionlayout = ({ title, subtitle, children }: PropsType) => {
   return (
     <section className="mt-32 relative">
       <div className="site-container relative">
         <div className="uppercase text-secondary text-left  font-semibold mb-4">
           {title}
         </div>
-        <h2 className="text-primary text-3xl font-semibold max-w-[280px] mb-5">
+        <h2 className="text-primary text-3xl font-semibold max-w-[340px] mb-5">
           {subtitle}
         </h2>
         {children}
@@ -20,4 +20,4 @@ const AboutSectionLayout = ({ title, subtitle, children }: PropsType) => {
   );
 };
 
-export default AboutSectionLayout;
+export default PageSectionlayout;

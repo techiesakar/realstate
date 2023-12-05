@@ -7,15 +7,15 @@ export const navdata = [
         path: "/about"
     }, {
         title: "properties",
-        path: "/"
+        path: "/properties"
     }, {
         title: "services",
-        path: "/"
+        path: "/services"
     }, {
         title: "blog",
-        path: "/"
+        path: "/blog"
     }, {
         title: "contact",
-        path: "/"
+        path: "/contact"
     },
 ]

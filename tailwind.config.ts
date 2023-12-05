@@ -34,7 +34,13 @@ module.exports = {
         primary: "#153048",
         secondary: "#ffa72a",
         hover: "#ff7800",
-        light: "#F8F8F8"
+        light: "#F8F8F8",
+        facebook:"#4267B2",
+        youtube:"#FF0000",
+        instagram:"#E1306C",
+        github:"#333333",
+        linkedin:"#0077B5",
+        twitter:"#1DA1F2"
       },
       width: {
         '1150': "1150px"
