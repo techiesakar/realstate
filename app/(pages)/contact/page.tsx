@@ -1,10 +1,10 @@
-import PageHeroWrapper from "@/components/pages/page-hero";
 import { ContactBottomLeft } from "@/components/pages/contact/contact-bottom-left";
 import { ContactRight } from "@/components/pages/contact/contact-right";
+import PageLayout from "@/components/pages/page-layout";
 
 const ContactPage = () => {
   return (
-    <PageHeroWrapper
+    <PageLayout
       title="contact us"
       subtitle="Lorem ipsum dolor sit amet conse ctetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
     "
@@ -12,7 +12,7 @@ const ContactPage = () => {
       right={<ContactRight />}
       phone="+1 (800) 987 6543"
       email="email@houzez.co"
-    ></PageHeroWrapper>
+    ></PageLayout>
   );
 };
 
