@@ -2,6 +2,7 @@ import React from "react";
 import { Logo } from "../logo/logo";
 import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
 import { ScrollToTop } from "../scroll-top";
+import Link from "next/link";
 
 export const Footer = () => {
   return (
@@ -13,7 +14,9 @@ export const Footer = () => {
         </div>
 
         <div className="lg:w-1/3 flex justify-center">
-          <Logo imageUrl="/logo-blue.png" />
+          <Link href="/">
+            <Logo imageUrl="/logo-white.png" />
+          </Link>
         </div>
         <div className="lg:w-1/3 flex justify-end">
           <ul className="flex gap-3">

@@ -13,7 +13,9 @@ export const Header = () => {
           <MobileToggle />
         </div>
         <div className="flex-1  flex items-center justify-center lg:justify-start">
-          <Logo imageUrl="/logo-white.png" />
+          <Link href="/">
+            <Logo imageUrl="/logo-white.png" />
+          </Link>
         </div>
         <div className="min-w-[56px] lg:hidden"></div>
         <ul className="lg:flex hidden text-sm list-none">
