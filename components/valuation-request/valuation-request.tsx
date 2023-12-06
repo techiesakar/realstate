@@ -8,7 +8,7 @@ type PropsType = {
 export const ValuationRequestSection = ({ className }: PropsType) => {
   return (
     <section className={cn("pt-10 lg:pt-16", className)}>
-      <div className="site-container bg-primary items-start rounded-xl lg:p-20 p-10 md:flex-row flex-col flex justify-between  lg:gap-20 relative">
+      <div className="site-container  bg-primary items-start lg:rounded-xl lg:p-20 p-10 md:flex-row flex-col flex justify-between  lg:gap-20 relative">
         <div className="lg:w-1/2 flex flex-col lg:space-y-8 lg:pr-16">
           <div className="uppercase text-secondary text-left font-semibold">
             Are you selling?
@@ -35,7 +35,7 @@ export const ValuationRequestSection = ({ className }: PropsType) => {
           width={250}
           height={250}
           alt=""
-          className="absolute lg:block hidden -right-10 bottom-0 top-0 h-full"
+          className="absolute lg:block hidden right-0 lg:-right-10 bottom-0 top-0 h-full"
         />
       </div>
     </section>

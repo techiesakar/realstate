@@ -31,7 +31,13 @@ export const FeaturedCard = () => {
         </div>
       </div>
       <div className="relative z-40">
-        <Image src="/banner.jpg" height={400} width={400} alt="" />
+        <Image
+          src="/banner.jpg"
+          height={400}
+          width={400}
+          alt=""
+          className="w-full"
+        />
       </div>
     </div>
   );

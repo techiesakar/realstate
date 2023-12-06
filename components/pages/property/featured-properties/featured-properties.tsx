@@ -41,7 +41,8 @@ type PropsType = {
 
 export const FeaturedProperties = () => {
   return (
-    <section className="w-full">
+    <section className="w-full md:mt-20 mt-10 lg:mt-28">
+      {" "}
       <div className="site-container relative  ">
         <div className="text-xl font-semibold text-primary mb-6">
           Featured Properties
@@ -59,8 +60,8 @@ export const FeaturedProperties = () => {
 export const PropertyCard = ({ item }: PropsType) => {
   return (
     <div className="bg-white">
-      <div className="flex justify-between gap-2">
-        <Link href="/" className="relative w-[250px]">
+      <div className="flex lg:flex-row flex-col justify-between gap-2">
+        <Link href="/" className="relative lg:w-[250px] w-full">
           <AspectRatio ratio={4 / 3} className="bg-muted">
             <Image
               src={item.featured_image}

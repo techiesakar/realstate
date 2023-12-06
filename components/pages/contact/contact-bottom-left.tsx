@@ -8,10 +8,10 @@ import {
 } from "react-icons/fa";
 export const ContactBottomLeft = () => {
   return (
-    <div className="space-y-8">
-      <div className="text-primary space-y-2">
+    <div className="space-y-8 lg:mt-0 mt-10">
+      <div className="text-white lg:text-primary space-y-2">
         <p className="font-bold">Corporate Headquarters</p>
-        <p className="">
+        <p className="text-sm">
           1584 Biscayne Boulevard <br />
           Miami FL, 33176
         </p>
