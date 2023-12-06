@@ -34,8 +34,9 @@ export const ValuationRequestSection = ({ className }: PropsType) => {
           src="/valuation.png"
           width={250}
           height={250}
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           alt=""
-          className="absolute lg:block hidden right-0 lg:-right-10 bottom-0 top-0 h-full"
+          className="absolute lg:block hidden right-0 lg:-right-10 bottom-0 top-0 h-full w-auto"
         />
       </div>
     </section>

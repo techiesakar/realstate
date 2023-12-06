@@ -8,6 +8,7 @@ export const AboutRight = () => {
         src="/banner.jpg"
         fill
         alt="about banner"
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         className="object-cover shadow-2xl rounded"
       />
     </div>

@@ -7,7 +7,7 @@ import { MobileToggle } from "./mobile-toggle";
 
 export const Header = () => {
   return (
-    <header className="bg-primary block">
+    <header className="bg-primary block  ">
       <div className="site-container  w-full flex justify-between items-center h-24 lg:h-28">
         <div className="min-w-[56px] lg:hidden">{<MobileToggle />}</div>
         <div className="flex-1  flex items-center justify-center lg:justify-start">
