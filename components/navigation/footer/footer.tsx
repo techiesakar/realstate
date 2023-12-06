@@ -1,4 +1,3 @@
-import React from "react";
 import { Logo } from "../logo/logo";
 import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
 import { ScrollToTop } from "../scroll-top";
@@ -8,15 +7,12 @@ export const Footer = () => {
   return (
     <div className="bg-white py-4 w-full">
       <div className="site-container lg:flex-row flex-col justify-center gap-4  flex lg:justify-between items-center h-28">
-        {/* left */}
         <div className="text-sm lg:w-1/3 text-gray-600">
           &copy; Houzez - All rights reserved
         </div>
 
         <div className="lg:w-1/3 flex justify-center">
-          <Link href="/">
-            <Logo imageUrl="/logo-white.png" />
-          </Link>
+          <Logo imageUrl="/logo-white.png" />
         </div>
         <div className="lg:w-1/3 flex justify-end">
           <ul className="flex gap-3">

@@ -27,7 +27,7 @@ export default function PageLayout({
             <div className="space-y-6">
               <div>
                 {title && (
-                  <h1 className="text-5xl capitalize font-semibold mb-3 text-white">
+                  <h1 className="lg:text-5xl text-3xl md:text-4xl capitalize font-semibold mb-3 text-white">
                     {title}
                   </h1>
                 )}
@@ -52,7 +52,7 @@ export default function PageLayout({
                 )}
               </div>
             </div>
-            <div className="">{bottomLeft}</div>
+            <div className="relative">{bottomLeft}</div>
           </div>
           <div className="relative">{right}</div>
         </div>

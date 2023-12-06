@@ -8,7 +8,7 @@ import { ValuationRequestSection } from "@/components/valuation-request/valuatio
 
 export default function Home() {
   return (
-    <main className="mb-10 lg:mb-26">
+    <>
       <HeroSection />
       <Suspense fallback={<FeaturedpropertiesSkeleton />}>
         <FeaturedSection />
@@ -16,6 +16,6 @@ export default function Home() {
       <ValuationRequestSection />
       <ServiceSection />
       <TestimonailSection />
-    </main>
+    </>
   );
 }

@@ -1,6 +1,6 @@
 import React, { ReactElement } from "react";
-import PageSectionlayout from "../../page-section-layout";
 import { Services } from "./services";
+import PageSectionlayout from "@/components/pages/page-section-layout";
 
 type PropsType = {
   title: string;
@@ -10,7 +10,7 @@ type PropsType = {
 export const ServiceSection = () => {
   return (
     <PageSectionlayout title="services" subtitle="How we can help you">
-      <div className="grid lg:grid-cols-3 grid-cols-2 gap-16 mt-10">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-16 mt-10">
         {Services.map((item) => {
           return (
             <ServicesCard

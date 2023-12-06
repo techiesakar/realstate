@@ -4,7 +4,7 @@ import { PropertiesPageHeader } from "@/components/pages/property/properties-hea
 
 const PropertiesPage = async () => {
   return (
-    <div className="mb-20">
+    <div>
       <PropertiesPageHeader />
       <div className="space-y-16">
         <FeaturedCities />

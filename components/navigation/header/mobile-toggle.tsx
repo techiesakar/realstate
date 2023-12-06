@@ -26,12 +26,12 @@ export function MobileToggle() {
 
           <li className="flex items-center text-white  px-4 gap-2">
             <PhoneCall className="w-4 h-4" />
-            <a
+            <Link
               href="tel:(800) 9876543"
               className="text-whiteuppercase font-semibold"
             >
               (800) 9876543
-            </a>
+            </Link>
           </li>
         </ul>
       </SheetContent>

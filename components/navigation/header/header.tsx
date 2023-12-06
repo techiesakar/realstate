@@ -9,13 +9,9 @@ export const Header = () => {
   return (
     <header className="bg-primary block">
       <div className="site-container  w-full flex justify-between items-center h-24 lg:h-28">
-        <div className="min-w-[56px] lg:hidden">
-          <MobileToggle />
-        </div>
+        <div className="min-w-[56px] lg:hidden">{<MobileToggle />}</div>
         <div className="flex-1  flex items-center justify-center lg:justify-start">
-          <Link href="/">
-            <Logo imageUrl="/logo-white.png" />
-          </Link>
+          <Logo imageUrl="/logo-white.png" />
         </div>
         <div className="min-w-[56px] lg:hidden"></div>
         <ul className="lg:flex hidden text-sm list-none">
@@ -32,12 +28,12 @@ export const Header = () => {
 
           <li className="flex items-center text-white  px-4 gap-2">
             <PhoneCall className="w-4 h-4" />
-            <a
+            <Link
               href="tel:(800) 9876543"
               className="text-whiteuppercase font-semibold"
             >
               (800) 9876543
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
