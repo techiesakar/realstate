@@ -42,7 +42,6 @@ type PropsType = {
 export const FeaturedProperties = () => {
   return (
     <section className="w-full md:mt-20 mt-10 lg:mt-28">
-      {" "}
       <div className="site-container relative  ">
         <div className="text-xl font-semibold text-primary mb-6">
           Featured Properties

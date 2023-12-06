@@ -11,10 +11,10 @@ import PageLayout from "@/components/pages/page-layout";
 
 const AboutPage = () => {
   return (
-    <div className="mb-32">
+    <div>
       <PageLayout
         title="about us"
-        subtitle="  Lorem ipsum dolor sit amet conse ctetur adipiscing elit. Ut elit
+        subtitle="lorem ipsum dolor sit amet conse ctetur adipiscing elit. Ut elit
         tellus, luctus nec ullamcorper"
         bottomLeft={<AboutBottomLeft />}
         right={<AboutRight />}

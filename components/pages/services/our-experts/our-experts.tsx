@@ -16,7 +16,7 @@ type PropsType = {
 export const ExpertSection = () => {
   return (
     <PageSectionlayout title="realtors" subtitle="Meet our experts">
-      <div className="grid lg:grid-cols-4 grid-cols-2 gap-5 mt-10  p-6 rounded ">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 mt-10  p-6 rounded ">
         {agents.map((agent) => (
           <ExpertCard
             key={agent.name}

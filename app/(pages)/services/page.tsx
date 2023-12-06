@@ -7,7 +7,7 @@ import { ValuationRequestSection } from "@/components/valuation-request/valuatio
 
 const ServicePage = () => {
   return (
-    <div className="mb-32">
+    <div>
       <PageLayout
         title="Leaders in property management"
         subtitle="Lorem ipsum dolor sit amet conse ctetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper"
