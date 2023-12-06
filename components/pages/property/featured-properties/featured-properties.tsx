@@ -66,6 +66,7 @@ export const PropertyCard = ({ item }: PropsType) => {
               src={item.featured_image}
               alt="Photo by Drew Beamer"
               fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 25vw, 25vw"
               className="rounded-md object-cover"
             />
           </AspectRatio>

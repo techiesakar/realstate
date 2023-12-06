@@ -7,6 +7,7 @@ export const ServicesRight = () => {
       <Image
         src="/services.jpg"
         fill
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         alt="about banner"
         className="object-cover shadow-2xl rounded"
       />

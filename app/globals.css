@@ -21,6 +21,7 @@ body {
 
 .section-banner {
     background-color: transparent;
+    border-top: 1px solid #153048ef;
     background-image: linear-gradient(180deg, #153048 59%, #F9F9F9 50%);
 }
 

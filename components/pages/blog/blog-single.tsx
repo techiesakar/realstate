@@ -18,13 +18,13 @@ export const BlogSingle = ({ post }: PropsType) => {
         <Link href="/" className="text-secondary capitalize">
           Home
         </Link>
-        <div>
+        <div className="flex items-center">
           <ChevronRight className="h-4 w-4 text-gray-600" />
           <Link href="/" className="text-secondary capitalize">
             {post.tags[0]}
           </Link>
         </div>
-        <div>
+        <div className="flex items-center">
           <ChevronRight className="h-4 w-4 text-gray-600" />
           <Link className="text-gray-600 capitalize" href="/">
             {post.title}
