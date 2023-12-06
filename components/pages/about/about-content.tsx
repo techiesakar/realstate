@@ -2,7 +2,7 @@ import React from "react";
 
 export const AboutContent = () => {
   return (
-    <section className="site-container columns-2 gap-10 space-y-5 mt-32  text-gray-600 leading-[24px]">
+    <section className="site-container lg:columns-2 gap-10 space-y-5 mt-20 lg:mt-32  text-gray-600 ">
       <p>
         Houzez is a premium WordPress theme for real estate agents and agencies
         where modern aesthetics are combined with a tasteful simplicity and

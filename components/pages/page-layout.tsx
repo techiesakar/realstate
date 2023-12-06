@@ -22,7 +22,7 @@ export default function PageLayout({
   return (
     <>
       <section className="text section-banner">
-        <div className="site-container grid grid-cols-2  pt-24  gap-20">
+        <div className="site-container grid lg:grid-cols-2 pt-10  lg:pt-24 gap-10 lg:gap-20">
           <div className="flex flex-col justify-between">
             <div className="space-y-6">
               <div>
@@ -52,7 +52,7 @@ export default function PageLayout({
                 )}
               </div>
             </div>
-            <div>{bottomLeft}</div>
+            <div className="">{bottomLeft}</div>
           </div>
           <div className="relative">{right}</div>
         </div>

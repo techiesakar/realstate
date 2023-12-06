@@ -6,7 +6,7 @@ type PropsType = {
 };
 const PageSectionlayout = ({ title, subtitle, children }: PropsType) => {
   return (
-    <section className="mt-32 relative">
+    <section className="lg:mt-32 md:mt-20 mt-14 relative">
       <div className="site-container relative">
         <div className="uppercase text-secondary text-left  font-semibold mb-4">
           {title}

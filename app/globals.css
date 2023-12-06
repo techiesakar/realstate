@@ -15,7 +15,7 @@ body {
 
 @layer components {
     .site-container {
-        @apply xl:max-w-[1150px] lg:max-w-[1080px] md:max-w-[720px] sm:max-w-[520px] max-w-[380px] mx-auto w-full;
+        @apply xl:max-w-[1230px] lg:max-w-[1180px] md:max-w-[1024px] sm:max-w-[768px] mx-auto w-full px-4 md:px-10;
     }
 }
 
@@ -23,3 +23,11 @@ body {
     background-color: transparent;
     background-image: linear-gradient(180deg, #153048 59%, #F9F9F9 50%);
 }
+
+
+@media only screen and (max-width: 1024) {
+    .section-banner {
+        background-color: transparent;
+        background-image: linear-gradient(180deg, #153048 100%, #F9F9F9 0%)!important;
+    }
+  }

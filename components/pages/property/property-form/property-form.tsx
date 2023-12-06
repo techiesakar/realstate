@@ -62,14 +62,14 @@ export const PropertyFilterForm = () => {
     console.log(values);
   };
   return (
-    <div className="translate-y-[20%]">
+    <div className="lg:translate-y-[20%] md:translate-y-[10%] translate-y-[0%] mt-6 lg:mt-0">
       <div className="flex items-center justify-center">
         <SwitchPropertyType type={type} setType={setType} />
       </div>
-      <div className="py-6 px-8 rounded-md bg-white shadow">
+      <div className="lg:py-6 py-4 px-8 rounded-md bg-white shadow">
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
-            <div className="flex gap-4 justify-between items-center">
+            <div className="flex md:flex-row flex-col gap-4 justify-between items-center">
               <FormField
                 control={form.control}
                 name="keyword"
@@ -201,7 +201,7 @@ export const PropertyFilterForm = () => {
                 )}
               />
             </div>
-            <div className="flex gap-4 justify-between items-end">
+            <div className="flex gap-4  md:flex-row flex-col justify-between items-end">
               <FormField
                 control={form.control}
                 name="min_price"

@@ -121,7 +121,7 @@ export const ContactRight = () => {
             control={form.control}
             name="consent"
             render={({ field }) => (
-              <FormItem className="flex flex-col">
+              <FormItem className="flex flex-col gap-3">
                 <div className="flex items-center">
                   <FormLabel>GDPR Agreement</FormLabel>
                   <Asterisk className="h-4 w-4 text-red-500" />

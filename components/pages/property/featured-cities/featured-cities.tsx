@@ -13,12 +13,12 @@ type CityType = {
 
 export const FeaturedCities = () => {
   return (
-    <section className="w-full mt-28">
+    <section className="w-full md:mt-20 mt-10 lg:mt-28">
       <div className="site-container relative  ">
         <div className="text-xl font-semibold text-primary mb-6">
           Featured Cities
         </div>
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid sm:grid-cols-2 grid-cols-1 lg:grid-cols-4 gap-4">
           {Cities.map((item) => (
             <CityCard
               key={item.city}
