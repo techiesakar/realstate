@@ -52,7 +52,7 @@ export default function PageLayout({
                 )}
               </div>
             </div>
-            <div className="relative">{bottomLeft}</div>
+            <div className="">{bottomLeft}</div>
           </div>
           <div className="relative">{right}</div>
         </div>

@@ -36,7 +36,7 @@ export const LeadershipSection = async () => {
       title="Leadership"
       subtitle="The people behind the project"
     >
-      <div className="grid lg:grid-cols-4 md:grid-cols-2">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1">
         {CardData.map((item) => (
           <LeadershipCard
             key={item.name}
